@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/tom2.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Projects</a></li>
+                <li><a href="#projects">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi! I'm <span>Thomas</span><br> Ojango Okatch From Kenya</h1>
+        </div>
+    </div>
+</div>
+<!-- ------------about------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/tom 3.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi! I'm Thomas Ojango Okatch, a passionate web developer with a love for creating functional and beautiful web experiences.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>App Development</span><br>Building Android Apps</li>
+                        <li><span>Web Development</span><br>Building Responsive Websites</li>
+                        <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - 2022</span><br>UI/UX Design Training at Nairobits</li>
+                        <li><span>2020 - 2021</span><br>Web Development Bootcamp at Moringa School</li>
+                        <li><span>2019 - 2020</span><br>Graphic Design Course at Nairobi Institute of Technology</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023 -2023</span><br>Internship at American Corner Mtaani</li>
+                        <li><span>2023 -2024</span><br>Image Annotator at Digital Divide Data</li>
+                        <li><span>2023 -2024</span><br>Employed at Nairobi Digital Hub Web designers</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-----------interests------------>
+<div id="interests">
+    <div class="container">
+        <h1 class="sub-title">My Interests</h1>
+        <div class="interests-list">
+            <div>
+                <h2>Web Development</h2>
+                <p>I love building responsive and user-friendly websites that provide great user experiences.</p>
+            </div>
+            <div>
+                <h2>UI/UX Design</h2>
+                <p>I enjoy creating intuitive and visually appealing user interfaces that enhance user experiences.</p>
+            </div>
+            <div>
+                <h2>Graphic Design</h2>
+                <p>I love creating visually stunning graphics and layouts that effectively communicate messages.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------projects------------>
+<div id="projects">
+    <div class="container">
+       <h1 class="sub-title">My Projects</h1>
+       <div class="project-list">
+        <div class="project">
+            <h2>Project 1</h2>
+            <p>Building a basic web page using HTML5 semantic tags, applying accessibility best practices and beginner-friendly SEO principles.</p>
+            <a href="#">https://github.com/ThomasOjango/wed-delopement-week-1-assigment.git</a>
+        </div>
+        <div class="project">
+            <h2>Project 2</h2>
+            <p>Practice creating Python programs to perform arithmetic and string operations, experimenting with variables, and exploring data types.</p>
+            <a href="#">https://github.com/ThomasOjango/Intro-to-Python-Assignment.git</a>
+        </div>
+       </div>
+
+       </div>
+
+    </div>
+</div>
+<!-----------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>thomasokatch04@gmail.com</p>
+                <p>+254759678286</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/me/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/thomas.ojango/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/ThomasOjango"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/thomas-ojango-7617b620b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BO%2B20P31SSEa7b36mxkG%2FaA%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ThomasOjango"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/CURRICULUM VITAE.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contactright">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2025 Thomas. All rights reserved.</p>
+    </div>
+</div>
+ 
+
+<script>
+
+var tablinks = document.getElementsByClassName('tab-links');
+var tabcontents = document.getElementsByClassName('tab-contents');
+function opentab(tabname) {
+    for (tablink of tablinks) {
+        tablink.classList.remove('active-link');
+    }
+    for (tabcontent of tabcontents) {
+        tabcontent.classList.remove('active-tab');
+    }
+    event.currentTarget.classList.add('active-link');
+    document.getElementById(tabname).classList.add("active-tab");
+}
+   
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxb_--rB-_pss2jSqnGHYAMhW-FRMVpRRx67skQcOv-kofukLTHmjQUaMlCVelSaRmb5Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
