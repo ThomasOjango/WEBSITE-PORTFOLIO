@@ -1,6 +1,4 @@
-Absolutely, Thomas! Here's a solid `README.md` to showcase your personal portfolio project professionally and with style:
 
----
 
 # 🧑‍💻 Thomas Ojango Okatch — Personal Portfolio
 
